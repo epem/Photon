@@ -34,11 +34,13 @@ Open the **[latest release](https://github.com/epem/Photon/releases/latest)** an
 
 | File | How to use it |
 |---|---|
-| `Photon-Windows-x64-….msi` | Standard installer with a Start menu shortcut. |
+| `Photon-Windows-x64-….msi` | Setup wizard with a Start menu shortcut. Since 0.1.9: Photon artwork, RU/EN terms and folder selection. |
 | `Photon-Windows-x64-….zip` | Extract the **entire** folder and run `Photon.exe`. No installation needed. |
 | `….sha256` | The matching package's checksum. Not needed to launch the app. |
 
 Built for **Windows x64**, checked on Windows 11. The .NET runtime and required libraries are included. Dedicated ARM64 and 32-bit Windows builds are not available yet.
+
+The 0.1.9 installer uses a Russian-language wizard. Keep the suggested folder or click **Обзор (Browse)** to choose your own; subsequent updates remember that location. The original Photon cover appears on the welcome and completion screens, with an optional link to the [NRG community](https://t.me/nrgit). The app itself supports English and Russian.
 
 **`Source code (zip)` and `Source code (tar.gz)` are not installers.** GitHub adds these links automatically. This repository contains documentation, artwork and an issue template; the application's source code is not published here.
 
@@ -68,7 +70,7 @@ Open **Keyboard Shortcuts** for the full list and remapping. Hover over numeric 
 
 ## Found a bug?
 
-**Direct reporting is being verified in the Windows 0.1.8 test build.** In that build, open **Help → Report a Bug**.
+**Direct reporting is available from Windows version 0.1.8.** Open **Help → Report a Bug**.
 
 1. Give the problem a short title and describe the steps that reproduce it.
 2. Optionally include a screenshot. Photon previews **only its editor window**; review it before sending. Screenshots are off by default.

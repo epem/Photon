@@ -26,7 +26,7 @@
 | Isolate a subject | Subject selection and background removal with local models. |
 | Keep the result | `.comp` projects, image and RAW import, PSD/PSB import, transparent PNG and JPEG export with a quality preview. |
 
-Image processing and models run on your computer. Internet access is used for update checks, downloads and opening reports on GitHub.
+Image processing and models run on your computer. Internet access is used for update checks, downloads and bug reports you choose to send.
 
 ## Install
 
@@ -68,13 +68,18 @@ Open **Keyboard Shortcuts** for the full list and remapping. Hover over numeric 
 
 ## Found a bug?
 
-In Photon, open **Help → Report a Bug**.
+**Direct reporting is being verified in the Windows 0.1.8 test build.** In that build, open **Help → Report a Bug**.
 
 1. Give the problem a short title and describe the steps that reproduce it.
-2. Optionally include a screenshot. Photon previews **only its editor window**; check what will be visible before sharing it.
-3. Click **Open GitHub**. Your description and technical details will be prepared. If you selected a screenshot, paste it at the end with `Ctrl+V`, then click **Create issue**.
+2. Optionally include a screenshot. Photon previews **only its editor window**; review it before sending. Screenshots are off by default.
+3. Click **Send report**. The text, technical details and selected screenshot are sent together. No GitHub account is needed.
+4. Once delivery is confirmed, click **Open issue** to see your report on GitHub.
 
-A GitHub account is required and issues are public. Nothing is submitted until you confirm it in your browser. You can copy long reports in full and save screenshots as PNG files. If Photon will not launch, **[open an issue directly](https://github.com/epem/Photon/issues/new?template=bug_report.md)**.
+**Reports and attachments are public.** Diagnostics include the Photon and Windows versions, selected tool, canvas size and layer count. A screenshot can show your artwork; leave out personal information you do not want to publish. Cloudflare relays the report without keeping its own archive; GitHub retains the issue and screenshot.
+
+If the connection drops, use **Check status** to look up the original report. Closing the form keeps its draft while that editor remains open; it is not retained after the application exits.
+
+In the previous form with an **Open GitHub** button, confirm submission in your browser using a GitHub account. **Other ways to report** lets you open the GitHub form or copy the text; you can save a PNG next to the screenshot preview. If Photon will not launch or does not yet have the report form, **[open an issue directly](https://github.com/epem/Photon/issues/new?template=bug_report.md)**.
 
 For slowdowns, include canvas size, layer count, the selected tool and the action that feels slow. Keep personal images and projects out of public reports unless you intend to share them.
 

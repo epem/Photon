@@ -1,61 +1,97 @@
-<p align="center"><img src="assets/photon-cover.png" alt="Photon — image editor for Windows" width="100%"></p>
-
-<p align="center"><a href="README.md">Русский</a> · <strong>English</strong></p>
 <p align="center">
-  <a href="https://github.com/epem/Photon/releases/latest"><img src="https://img.shields.io/github/v/release/epem/Photon?style=flat-square&label=Photon&color=1374ff" alt="Latest release"></a>
-  <img src="https://img.shields.io/badge/Windows-x64-171f2b?style=flat-square&logo=windows" alt="Windows x64">
-  <img src="https://img.shields.io/badge/Interface-RU%20%2F%20EN-171f2b?style=flat-square" alt="Russian and English interface">
+  <img src="assets/photon-cover.png" alt="Photon — image editor for Windows" width="100%">
 </p>
 
-<h1 align="center">Your images. Your ideas. Your Photon.</h1>
-<p align="center">Layers, masks, retouching and color in one editor.<br>Made for the community. Free to use, with no subscription or app account.</p>
-<p align="center"><a href="https://github.com/epem/Photon/releases/latest"><strong>Download for Windows →</strong></a> &nbsp; · &nbsp; <a href="https://github.com/epem/Photon/issues">Report a bug</a> &nbsp; · &nbsp; <a href="https://t.me/nrgit">Community</a></p>
+<p align="center"><a href="README.md">Русский</a> · <strong>English</strong></p>
 
-![The real Photon interface: landscape, typography and five editable layers](assets/photon-editor.png)
+<h1 align="center">Photon</h1>
+<p align="center">
+  <strong>Photo editing, compositing and graphics in one workspace.</strong><br>
+  Layers, masks, retouching and color tools for everyday edits and creative projects.
+</p>
+<p align="center">Free to use · No subscription · No account required</p>
 
-*An actual app screenshot. The picture and type are separate layers; the demo landscape was generated with AI.*
+<p align="center">
+  <a href="https://github.com/epem/Photon/releases/latest"><img src="https://img.shields.io/github/v/release/epem/Photon?style=flat-square&amp;label=Photon&amp;color=1374ff" alt="Latest version"></a>
+  <img src="https://img.shields.io/badge/Windows-x64-171f2b?style=flat-square" alt="Windows x64">
+  <img src="https://img.shields.io/badge/Language-RU%20%2F%20EN-171f2b?style=flat-square" alt="Russian and English interface">
+</p>
 
-## From a photo to a composition
+<p align="center">
+  <a href="https://github.com/epem/Photon/releases/latest"><strong>Download Photon for Windows →</strong></a>
+  &nbsp; · &nbsp; <a href="https://github.com/epem/Photon/releases">What's new</a>
+  &nbsp; · &nbsp; <a href="https://t.me/nrgit">NRG community</a>
+</p>
 
-| What you want to do | What Photon offers |
+<br>
+
+![The Photon workspace: artwork with an image and editable text layers](assets/photon-editor.png)
+
+<p align="center"><sub>Layered artwork with editable typography in Photon.</sub></p>
+
+## From photo edits to original compositions
+
+Retouch a photo, build a collage or create cover art and graphics for publication. Work on individual parts of an image and revisit them as your idea takes shape.
+
+- **Layers and masks.** Combine images, text and shapes. Organize them with groups, blend modes, clipping masks and adjustment layers.
+- **Color and light.** Adjust exposure, white balance and hues. Curves, levels, HSL, color balance, gradient maps and Camera Raw give you control over the overall look and individual colors.
+- **Retouching and painting.** Remove unwanted details with the clone stamp, healing brush and content-aware fill. Paint with adjustable brush size, hardness, opacity and smoothing.
+- **Subject selection.** Separate a subject from its background, combine selections and refine edges. Background removal and subject selection run on your computer.
+- **Text and design.** Add editable type, shapes and gradients. Position elements with guides and snapping, then apply shadows, strokes and glows.
+
+## Make the workspace yours
+
+Keep multiple documents open in tabs, choose English or Russian, and customize your keyboard shortcuts. Language, controls and editor preferences are available in **Edit → Settings**.
+
+Drop an image on the tab strip to open a new document, or on the canvas to add a layer. Use the mouse wheel to adjust numeric fields and sliders.
+
+**Image processing happens locally.** You can edit offline; an internet connection is needed for updates and sending bug reports.
+
+## Formats and saving
+
+| Task | Supported formats |
 |---|---|
-| Build a composition | Layers and groups, blend modes, layer and clipping masks, transforms and layer effects. |
-| Clean up an image | Brush, eraser, clone stamp, healing, selections and content-aware fill. |
-| Shape the color | Curves, levels, color balance, exposure, HSL, gradient maps and Camera Raw. |
-| Add your idea | Editable text, shapes, gradients, guides and snapping. |
-| Isolate a subject | Subject selection and background removal with local models. |
-| Keep the result | `.comp` projects, image and RAW import, PSD/PSB import, transparent PNG and JPEG export with a quality preview. |
+| Open an image | PNG, JPEG, TIFF, BMP, GIF, HEIC, SVG and camera RAW |
+| Import layers | PSD and PSB: 8-bit RGB documents |
+| Keep a project editable | Photon `.comp` projects with layers, masks and settings |
+| Export the result | Transparent PNG or JPEG with a quality preview |
 
-Image processing and models run on your computer. Internet access is used for update checks, downloads and bug reports you choose to send.
+Advanced PSD/PSB features may be imported only partially. Photon displays conversion notes during import.
 
-## Install
+## Download and get started
 
-Open the **[latest release](https://github.com/epem/Photon/releases/latest)** and choose an **Asset**:
+**[Get the latest Photon for Windows x64 →](https://github.com/epem/Photon/releases/latest)**
 
-| File | How to use it |
+| Option | Getting started |
 |---|---|
-| `Photon-Windows-x64-….msi` | Setup wizard with a Start menu shortcut. Since 0.1.9: Photon artwork, RU/EN terms and folder selection. |
-| `Photon-Windows-x64-….zip` | Extract the **entire** folder and run `Photon.exe`. No installation needed. |
-| `….sha256` | The matching package's checksum. Not needed to launch the app. |
+| **Installer · MSI** | Install Photon and launch it from the Start menu. The setup wizard is in Russian; the app supports English and Russian. |
+| **Portable · ZIP** | Extract the entire archive and run `Photon.exe` from the folder. |
 
-Built for **Windows x64**, checked on Windows 11. The .NET runtime and required libraries are included. Dedicated ARM64 and 32-bit Windows builds are not available yet.
+Open an image or create a canvas. Save your editable work as a `.comp` project, then export the finished image as PNG or JPEG.
 
-The 0.1.9 installer uses a Russian-language wizard. Keep the suggested folder or click **Обзор (Browse)** to choose your own; subsequent updates remember that location. The original Photon cover appears on the welcome and completion screens, with an optional link to the [NRG community](https://t.me/nrgit). The app itself supports English and Russian.
+Get updates through **Help → Check for Updates**. See the [release notes](https://github.com/epem/Photon/releases) for what's changed.
 
-**`Source code (zip)` and `Source code (tar.gz)` are not installers.** GitHub adds these links automatically. This repository contains documentation, artwork and an issue template; the application's source code is not published here.
+## Support and feedback
 
-## Your first five minutes
+Found an issue? Open **Help → Report a Bug**, describe what happened, and click **Send report**. You can include a screenshot of the editor window and review it before sending. No GitHub account is required.
 
-1. Create a canvas or import a picture. Drop a file **on the tab strip** to open a separate document, or **on the canvas** to add it as a layer.
-2. Build your composition with layers. A mask hides part of a layer while preserving its original pixels.
-3. Adjust color and detail. Check the preview before applying changes.
-4. Save your work as a `.comp` project, then export a finished PNG or JPEG.
+**Your report and any screenshot you include are posted to a public issue tracker.** Leave out information you do not want to share. Photon provides a link to the issue once it has been submitted.
 
-A `.comp` folder is the complete project. Keep and move the whole folder together.
+If the app will not start, [open an issue on GitHub](https://github.com/epem/Photon/issues/new?template=bug_report.md).
 
-## Make it yours
+## Good to know
 
-**Edit → Settings** offers Russian or English, keyboard shortcuts, layer panel width, grids, guides, snapping, JPEG quality and automatic update checks. You can preview the language immediately; Cancel restores your previous settings.
+<details>
+<summary><strong>How do I move a project to another computer?</strong></summary>
+
+A `.comp` project is stored as a folder. Copy the entire folder to keep the project and its layer data together.
+
+</details>
+
+<details>
+<summary><strong>Where can I view and change keyboard shortcuts?</strong></summary>
+
+Open **Edit → Keyboard Shortcuts** to customize the commands for your workflow.
 
 | Action | Default shortcut |
 |---|---|
@@ -65,38 +101,29 @@ A `.comp` folder is the complete project. Keep and move the whole folder togethe
 | Fit canvas / actual pixels | `Ctrl+0` / `Ctrl+1` |
 | Pan | Hold `Space` |
 | Brush size | `[` / `]` |
+| Swap colors / reset colors | `X` / `D` |
 
-Open **Keyboard Shortcuts** for the full list and remapping. Hover over numeric fields or sliders and turn the mouse wheel to adjust them; hold `Shift` for larger steps.
+</details>
 
-## Found a bug?
+<details>
+<summary><strong>Which file should I download?</strong></summary>
 
-**Direct reporting is available from Windows version 0.1.8.** Open **Help → Report a Bug**.
+Under **Assets**, choose a Photon file ending in **.msi** or **.zip**. Use MSI for a standard installation or ZIP to run the app from a folder.
 
-1. Give the problem a short title and describe the steps that reproduce it.
-2. Optionally include a screenshot. Photon previews **only its editor window**; review it before sending. Screenshots are off by default.
-3. Click **Send report**. The text, technical details and selected screenshot are sent together. No GitHub account is needed.
-4. Once delivery is confirmed, click **Open issue** to see your report on GitHub.
+GitHub's automatic **Source code** archives contain this repository's materials. They do not contain a runnable copy of Photon. The `.sha256` files let you verify your download's integrity.
 
-**Reports and attachments are public.** Diagnostics include the Photon and Windows versions, selected tool, canvas size and layer count. A screenshot can show your artwork; leave out personal information you do not want to publish. Cloudflare relays the report without keeping its own archive; GitHub retains the issue and screenshot.
+</details>
 
-If the connection drops, use **Check status** to look up the original report. Closing the form keeps its draft while that editor remains open; it is not retained after the application exits.
+<details>
+<summary><strong>Why does Windows show an unknown publisher?</strong></summary>
 
-In the previous form with an **Open GitHub** button, confirm submission in your browser using a GitHub account. **Other ways to report** lets you open the GitHub form or copy the text; you can save a PNG next to the screenshot preview. If Photon will not launch or does not yet have the report form, **[open an issue directly](https://github.com/epem/Photon/issues/new?template=bug_report.md)**.
+Photon packages do not yet have a publisher signing certificate. Download the app from the [official epem/Photon repository](https://github.com/epem/Photon/releases/latest).
 
-For slowdowns, include canvas size, layer count, the selected tool and the action that feels slow. Keep personal images and projects out of public reports unless you intend to share them.
-
-## Updates and current limits
-
-**Help → Check for Updates** checks this repository's stable releases. Photon verifies the downloaded file's SHA-256 and offers to save projects before launching the installer. Extract portable ZIP updates to a separate folder. The built-in updater is available from 0.1.6 onward.
-
-Photon is actively being developed. PSD/PSB import has limits, primarily supporting 8-bit RGB documents; full compatibility with every Photoshop feature is not claimed. Large-project performance depends on available memory, graphics hardware and effects. Windows packages do not yet have a publisher signing certificate.
+</details>
 
 ---
 
-<p><img src="assets/nrg.png" width="76" alt="NRG" align="left"></p>
-
-**Take it. Create.**
-
-This editor is a gift to the community from **NRG**. For your photos, collages and bold experiments.
-
-**[t.me/nrgit →](https://t.me/nrgit)**
+<p align="center"><img src="assets/nrg.png" width="76" alt="NRG"></p>
+<h2 align="center">Take it. Create.</h2>
+<p align="center">Photon is a gift to the community from <strong>NRG</strong>.<br>Follow our Telegram channel for project news and new releases.</p>
+<p align="center"><a href="https://t.me/nrgit"><strong>t.me/nrgit →</strong></a></p>
